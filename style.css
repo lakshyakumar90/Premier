@@ -837,6 +837,99 @@ body {
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
+@media (min-width: 769px) and (max-width: 1050px) {
+  #logo h1::before {
+    bottom: 18%;
+  }
+
+  #center {
+    padding: 2vw 5vw;
+  }
+
+  #overlay {
+    height: 47%;
+  }
+
+  #scroll {
+    height: 35vh;
+  }
+
+  #container {
+    padding: 2vw 0 2vw 2vw;
+  }
+
+  #alphabet h5 {
+    font-size: 1.8vw;
+  }
+
+  #alphabet h6 {
+    font-size: 1vw;
+  }
+
+  #page2 {
+    padding: 2vw 5vw;
+  }
+
+  #page3 {
+    padding: 2vw 5vw;
+  }
+
+  #page3-part1 img {
+    height: 50%;
+    width: 90%;
+  }
+
+  #page4 {
+    padding: 2vw 5vw;
+  }
+
+  #page5 {
+    height: 100%;
+    width: 100%;
+    padding: 3vw 5vw;
+  }
+
+  .elem img {
+    width: 12%;
+  }
+
+  #page6 {
+    padding: 3vw 5vw;
+  }
+
+  #page7 {
+    padding: 3vw 5vw;
+  }
+
+  #page8 {
+    padding: 2vw 5vw;
+  }
+
+  #page9 {
+    padding: 3vw 5vw;
+  }
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 769px) and (max-width: 900px) {
+  #scroll {
+    height: 30vh;
+    width: 103%;
+  }
+  #container {
+    padding: 2vw 0 2vw 2vw;
+  }
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 @media (max-width: 768px) {
   #nav {
     height: 9vh;
@@ -1271,388 +1364,13 @@ body {
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 450px) {
-  #nav {
-    height: 7.5vh;
-  }
-
-  #logo h1 {
-    font-size: 4.5vw;
-    letter-spacing: 0px;
-    padding-left: 3vw;
-  }
-
-  #nav-links h4 i {
-    font-size: 5vw;
-  }
-
-  #center {
-    height: 50%;
-    padding: 2vw 5vw;
-  }
-
-  #overlay-1 h1 {
-    font-size: 5vw;
-    font-weight: 400;
-  }
-
-  #overlay-1 h2 {
-    font-size: 2vw;
-  }
-
-  #overlay-2 h4 {
-    font-size: 2.4vw;
-  }
-
-  #overlay-2 img {
-    height: 4vw;
-  }
-
+@media (min-width: 601px) and (max-width: 650px) {
   #scroll {
-    height: 16vh;
-    width: 133%;
+    height: 23vh;
+    width: 110%;
   }
-
-  #alphabet {
-    height: 6vh;
-    gap: 0.7vw;
-  }
-
-  #alphabet h5 {
-    font-size: 3vw;
-    font-weight: 500;
-  }
-
-  #alphabet h6 {
-    display: none;
-  }
-
-  #page2 {
-    height: 120%;
-    margin-top: 3vw;
-  }
-
-  #page2-part2 img {
-    height: 84%;
-  }
-
-  #page2-part2 #para1 {
-    width: 43%;
-    font-size: 3vw;
-    font-weight: 500;
-  }
-
-  #page2-part2 #para2 {
-    width: 55%;
-    font-size: 2.1vw;
-    font-weight: 500;
-  }
-
-  #page3 {
-    height: 50%;
-    margin-bottom: 3vw;
-  }
-
-  #page3-part1 h2 {
-    text-align: center;
-    width: 90%;
-    font-size: 3vw;
-  }
-
-  #page3-part2 {
-    width: 100%;
-    height: 80%;
-  }
-
-  #page3-part2 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  #page4 {
-    height: 30%;
-    padding: 3vw 5vw;
-    margin-bottom: 3vw;
-  }
-
-  #page5 {
-    height: 52%;
-    width: 100%;
-    padding: 3vw 5vw;
-  }
-
-  #page5 > h1 {
-    margin-bottom: 3vh;
-    font-size: 4vw;
-    letter-spacing: 1.3px;
-  }
-
-  .elem {
-    height: 10vh;
-  }
-
-  .elem img {
-    display: none;
-  }
-
-  .elem h4 {
-    font-size: 2.5vw;
-  }
-
-  .elem .elem-part2 h1 {
-    font-size: 3.5vw;
-  }
-
-  .elem .elem-part2 h5 {
-    font-size: 2vw;
-  }
-
-  #page6 {
-    height: 100%;
-    width: 100%;
-    padding: 3vw 5vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #page6-part1 {
-    height: 42%;
-    width: 100%;
-  }
-
-  #page6-part1 img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    object-position: 0 18%;
-  }
-
-  #page6-part2 {
-    height: 55%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  #page6-part2-content {
-    height: 32%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  #page6-part2-content h1 {
-    font-size: 5vw;
-  }
-
-  #page6-part2-content h3 {
-    font-size: 3vw;
-    width: 95%;
-  }
-
-  #page6-part2-content p {
-    font-size: 2.5vw;
-    width: 95%;
-  }
-
-  #page6-part2-images {
-    height: 60%;
-    width: 100%;
-  }
-
-  #page6-part2-images #image-1-box {
-    width: 100%;
-  }
-
-  #page6-part2-images #image-2-box {
-    display: none;
-  }
-
-  #page6-part2-images #image-1-box img {
-    object-position: 0 30%;
-    width: 100%;
-  }
-
-  #page7 {
-    height: 40%;
-    width: 100%;
-    padding: 3vw 5vw;
-  }
-
-  #page8 {
-    height: 70%;
-    width: 100%;
-    padding: 2vw 5vw;
-    margin-bottom: 1vh;
-  }
-
-  #page8-part1 {
-    display: none;
-  }
-
-  #page8-part2 {
-    height: 100%;
-    width: 100%;
-  }
-
-  #page8-part2 img {
-    height: 75%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 0 25%;
-  }
-
-  #page8-part2 #para1 {
-    font-size: 3.5vw;
-    width: 45%;
-  }
-
-  #page8-part2 #para2 {
-    font-size: 2.5vw;
-    width: 48%;
-  }
-
-  #marque {
-    padding: 2vw;
-    margin-bottom: 4vw;
-  }
-
-  #marque h1 {
-    font-size: 5vw;
-    -webkit-text-stroke: 0.18vw black;
-    letter-spacing: 0.5vw;
-  }
-
-  #page9 {
-    height: 100%;
-    width: 100%;
-    padding: 3vw 5vw;
-    flex-direction: column;
-    margin-bottom: 7.5vw;
-  }
-
-  #page9-header {
-    width: 100%;
-  }
-
-  #page9-part2 {
-    margin-top: 3vw;
-    width: 100%;
-    height: 45%;
-    margin-bottom: 9vw;
-  }
-
-  #page9-header h1 {
-    font-size: 5vw;
-    text-align: center;
-    width: 100%;
-  }
-
-  #page9-part2-content {
-    height: 10%;
-    width: 100%;
-  }
-
-  #page9-part2-content h3 {
-    font-size: 3vw;
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-  }
-
-  #page9-part2-image {
-    height: 78%;
-    width: 100%;
-  }
-
-  #page9-part2-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 0 25%;
-  }
-
-  #page9-part3 {
-    width: 100%;
-    height: 45%;
-  }
-
-  #page9-part3-content {
-    height: 10%;
-    width: 100%;
-  }
-
-  #page9-part3-content h3 {
-    font-size: 3vw;
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-  }
-
-  #page9-part3-image {
-    height: 78%;
-    width: 100%;
-  }
-
-  #footer {
-    height: 20vh;
-    flex-direction: column;
-    align-items: center;
-    padding: 3vw 5vw;
-  }
-
-  #foot-logo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5vw;
-  }
-
-  #foot-logo h1 {
-    font-size: 5vw;
-    padding-top: 0;
-    text-align: center;
-    width: fit-content;
-  }
-
-  #footer #foot-links h3 {
-    font-size: 1.5vw;
-    padding-top: 2vw;
-    display: none;
-  }
-
-  #last-div {
-    height: 48%;
-    width: 69%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #last-div h3 {
-    font-size: 1.5vw;
-    display: none;
-  }
-
-  #last-div #contact-links {
-    justify-content: center;
-    gap: 3vw;
-  }
-
-  #last-div #contact-links i {
-    font-size: 4vw;
-  }
-
-  #last-div #copyright {
-    font-size: 2vw;
-    text-align: center;
+  #container {
+    padding: 2vw 0 2vw 2vw;
   }
 }
 
@@ -2041,105 +1759,388 @@ body {
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width: 769px) and (max-width: 1050px) {
-  #logo h1::before {
-    bottom: 18%;
+@media (min-width: 0px) and (max-width: 450px) {
+  #nav {
+    height: 7.5vh;
+  }
+
+  #logo h1 {
+    font-size: 4.5vw;
+    letter-spacing: 0px;
+    padding-left: 3vw;
+  }
+
+  #nav-links h4 i {
+    font-size: 5vw;
   }
 
   #center {
+    height: 50%;
     padding: 2vw 5vw;
   }
 
-  #overlay {
-    height: 47%;
+  #overlay-1 h1 {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  #overlay-1 h2 {
+    font-size: 2vw;
+  }
+
+  #overlay-2 h4 {
+    font-size: 2.4vw;
+  }
+
+  #overlay-2 img {
+    height: 4vw;
   }
 
   #scroll {
-    height: 35vh;
+    height: 18vh;
+    width: 133%;
   }
 
-  #container {
-    padding: 2vw 0 2vw 2vw;
+  #alphabet {
+    height: 6vh;
+    gap: 0.7vw;
   }
 
   #alphabet h5 {
-    font-size: 1.8vw;
+    font-size: 3vw;
+    font-weight: 500;
   }
 
   #alphabet h6 {
-    font-size: 1vw;
+    display: none;
   }
 
   #page2 {
-    padding: 2vw 5vw;
+    height: 120%;
+    margin-top: 3vw;
+  }
+
+  #page2-part2 img {
+    height: 84%;
+  }
+
+  #page2-part2 #para1 {
+    width: 43%;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  #page2-part2 #para2 {
+    width: 55%;
+    font-size: 2.1vw;
+    font-weight: 500;
   }
 
   #page3 {
-    padding: 2vw 5vw;
+    height: 50%;
+    margin-bottom: 3vw;
   }
 
-  #page3-part1 img {
-    height: 50%;
+  #page3-part1 h2 {
+    text-align: center;
     width: 90%;
+    font-size: 3vw;
+  }
+
+  #page3-part2 {
+    width: 100%;
+    height: 80%;
+  }
+
+  #page3-part2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   #page4 {
-    padding: 2vw 5vw;
+    height: 30%;
+    padding: 3vw 5vw;
+    margin-bottom: 3vw;
   }
 
   #page5 {
-    height: 100%;
+    height: 52%;
     width: 100%;
     padding: 3vw 5vw;
   }
 
+  #page5 > h1 {
+    margin-bottom: 3vh;
+    font-size: 4vw;
+    letter-spacing: 1.3px;
+  }
+
+  .elem {
+    height: 10vh;
+  }
+
   .elem img {
-    width: 12%;
+    display: none;
+  }
+
+  .elem h4 {
+    font-size: 2.5vw;
+  }
+
+  .elem .elem-part2 h1 {
+    font-size: 3.5vw;
+  }
+
+  .elem .elem-part2 h5 {
+    font-size: 2vw;
   }
 
   #page6 {
+    height: 100%;
+    width: 100%;
     padding: 3vw 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #page6-part1 {
+    height: 42%;
+    width: 100%;
+  }
+
+  #page6-part1 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: 0 18%;
+  }
+
+  #page6-part2 {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #page6-part2-content {
+    height: 32%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #page6-part2-content h1 {
+    font-size: 5vw;
+  }
+
+  #page6-part2-content h3 {
+    font-size: 3vw;
+    width: 95%;
+  }
+
+  #page6-part2-content p {
+    font-size: 2.5vw;
+    width: 95%;
+  }
+
+  #page6-part2-images {
+    height: 60%;
+    width: 100%;
+  }
+
+  #page6-part2-images #image-1-box {
+    width: 100%;
+  }
+
+  #page6-part2-images #image-2-box {
+    display: none;
+  }
+
+  #page6-part2-images #image-1-box img {
+    object-position: 0 30%;
+    width: 100%;
   }
 
   #page7 {
+    height: 40%;
+    width: 100%;
     padding: 3vw 5vw;
   }
 
   #page8 {
+    height: 70%;
+    width: 100%;
     padding: 2vw 5vw;
+    margin-bottom: 1vh;
+  }
+
+  #page8-part1 {
+    display: none;
+  }
+
+  #page8-part2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  #page8-part2 img {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 25%;
+  }
+
+  #page8-part2 #para1 {
+    font-size: 3.5vw;
+    width: 45%;
+  }
+
+  #page8-part2 #para2 {
+    font-size: 2.5vw;
+    width: 48%;
+  }
+
+  #marque {
+    padding: 2vw;
+    margin-bottom: 4vw;
+  }
+
+  #marque h1 {
+    font-size: 5vw;
+    -webkit-text-stroke: 0.18vw black;
+    letter-spacing: 0.5vw;
   }
 
   #page9 {
+    height: 100%;
+    width: 100%;
+    padding: 3vw 5vw;
+    flex-direction: column;
+    margin-bottom: 7.5vw;
+  }
+
+  #page9-header {
+    width: 100%;
+  }
+
+  #page9-part2 {
+    margin-top: 3vw;
+    width: 100%;
+    height: 45%;
+    margin-bottom: 9vw;
+  }
+
+  #page9-header h1 {
+    font-size: 5vw;
+    text-align: center;
+    width: 100%;
+  }
+
+  #page9-part2-content {
+    height: 10%;
+    width: 100%;
+  }
+
+  #page9-part2-content h3 {
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+  }
+
+  #page9-part2-image {
+    height: 78%;
+    width: 100%;
+  }
+
+  #page9-part2-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 25%;
+  }
+
+  #page9-part3 {
+    width: 100%;
+    height: 45%;
+  }
+
+  #page9-part3-content {
+    height: 10%;
+    width: 100%;
+  }
+
+  #page9-part3-content h3 {
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+  }
+
+  #page9-part3-image {
+    height: 78%;
+    width: 100%;
+  }
+
+  #footer {
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
     padding: 3vw 5vw;
   }
-}
 
-/* -----------------------------------------------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------------------------------------------------------------------------------- */
-/* -----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-@media (min-width: 769px) and (max-width: 900px) {
-  #scroll {
-    height: 30vh;
-    width: 103%;
+  #foot-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vw;
   }
-  #container {
-    padding: 2vw 0 2vw 2vw;
+
+  #foot-logo h1 {
+    font-size: 5vw;
+    padding-top: 0;
+    text-align: center;
+    width: fit-content;
   }
-}
 
-/* -----------------------------------------------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------------------------------------------------------------------------------- */
-/* -----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-@media (min-width: 600px) and (max-width: 650px) {
-  #scroll {
-    height: 23vh;
-    width: 110%;
+  #footer #foot-links h3 {
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    display: none;
   }
-  #container {
-    padding: 2vw 0 2vw 2vw;
+
+  #last-div {
+    height: 48%;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #last-div h3 {
+    font-size: 1.5vw;
+    display: none;
+  }
+
+  #last-div #contact-links {
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  #last-div #contact-links i {
+    font-size: 4vw;
+  }
+
+  #last-div #copyright {
+    font-size: 2vw;
+    margin-top: 1.5vw;
+    text-align: center;
   }
 }
