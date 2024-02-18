@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+@font-face {
+font-family: monument;
+src: url(./fonts/MonumentExtended-Regular.ttf) format("truetype");
+}
+
+@font-face {
+font-family: monument;
+src: url(./fonts/MonumentExtended-Ultrabold.ttf) format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1003,7 +1013,7 @@ body {
   }
 
   #scroll {
-    height: 25vh;
+    height: 20vh;
     width: 110%;
   }
 
@@ -1350,7 +1360,7 @@ body {
 
 @media (max-width: 675px) {
   #scroll {
-    height: 25vh;
+    height: 18vh;
     width: 110%;
   }
 
@@ -1366,7 +1376,7 @@ body {
 
 @media (min-width: 601px) and (max-width: 650px) {
   #scroll {
-    height: 23vh;
+    height: 16vh;
     width: 110%;
   }
   #container {
@@ -1393,7 +1403,7 @@ body {
   }
 
   #scroll {
-    height: 22vh;
+    height: 16vh;
     width: 120%;
     margin-bottom: 3vw;
   }
@@ -1747,7 +1757,7 @@ body {
 
 @media (max-width: 525px) {
   #scroll {
-    height: 20vh;
+    height: 15vh;
     width: 135%;
   }
   #container {
@@ -1797,7 +1807,7 @@ body {
   }
 
   #scroll {
-    height: 18vh;
+    height: 15vh;
     width: 133%;
   }
 
