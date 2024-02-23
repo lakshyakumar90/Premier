@@ -736,27 +736,6 @@ body {
   padding-top: 2vh;
 }
 
-#foot-logo h1::after {
-  content: "©";
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3vw;
-  font-weight: 600;
-  position: absolute;
-  top: 11%;
-  right: 20%;
-}
-
-#foot-logo h1::before {
-  content: "model management";
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.85vw;
-  font-weight: 600;
-  position: absolute;
-  top: 30%;
-  right: 30%;
-  letter-spacing: 0.01vw;
-}
-
 #footer #foot-links {
   display: flex;
   justify-content: space-between;
